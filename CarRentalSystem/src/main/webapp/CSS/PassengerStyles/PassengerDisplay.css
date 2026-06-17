@@ -1,0 +1,142 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	
+}
+
+body{
+	height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(116, 237, 181, 0.5), rgba(172, 182, 229, 0.5)), url('../../images/PassengerImages/signup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  overflow-x: hidden;
+}
+
+.formWrapper {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  min-height: calc(100vh - 120px); 
+  margin-top: 0;
+
+}
+
+.profile-head{
+	padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.5;
+	  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	  font-size:2rem;
+	   font-family: 'Segoe UI', sans-serif;
+	   color:#ffffff;
+}
+
+.main-container{
+	
+	
+      background:rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+	  height:350px;
+      max-width: 1350px;
+      width: 100%;
+}
+
+.Ptable{
+	width: 1300px;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Ptable thead{
+	background-color: #4e73df;
+  color: white;
+  text-align: left;
+  font-size:19px;
+}
+
+.Ptable th, .Ptable td{
+	padding: 12px 20px;
+}
+
+.Ptable tbody tr{
+	border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+.Ptable tbody tr:nth-child(even){
+	background-color: #f9f9f9;
+}
+
+.Ptable tbody tr:hover{
+	background-color: #f1f3f9;
+}
+
+@media (max-width: 768px){
+	
+  .Ptable thead {
+    display: none;
+  }
+
+  .Ptable tr {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .Ptable td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .Ptable td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+.ButtonsContainer {
+	display:flex;
+	padding:20px;
+	margin:20px;
+	justify-content:center;
+	width:1300px;
+	
+}
+
+.ButtonsContainer button{
+	padding: 0.75rem;
+      background-color: #6c63ff;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+	  font-size:1rem;
+	  margin:10px;
+}
+
+.ButtonsContainer button:hover{
+	background-color:#574fd6;
+}

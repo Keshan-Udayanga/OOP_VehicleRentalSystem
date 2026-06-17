@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+.VehicleImg{
+	border-radius:0px 40px 0px 0px ;
+}
+.main .vi{
+	width:20px;
+	height:20px;	
+}
+
+.vehicleAllDetails{
+	text-align: center;
+	padding:10px;
+	padding-bottom:70px;
+	margin:10px;
+	background-color:#e4e4e4;
+	border-radius:0px 40px;
+}
+
+.vehicleAllDetails {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vehicleAllDetails .btnBooking{
+	margin-top:15px;
+	margin-left:70px;
+	width:60%;
+	border:none;
+	background-color:#4dff79;
+}
+
+.VehicleImg{
+	width:100%;
+	height:80%;
+}
+
+#topic h4{
+	margin-top:25px;
+	margin-bottom:0px;
+	text-align:center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size:60px;
+}
+
+#topic h4 span{
+	color:#1e1eff;
+	font-weight:bolder;
+}
+
+.vehicleAllDetails:hover{
+	scale:1.05;
+	transition: 0.3s;
+}
+
+.vehicleAllDetails .btnBooking:hover{
+	background-color:#ffff51;
+}

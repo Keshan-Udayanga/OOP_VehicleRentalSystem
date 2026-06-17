@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+          <servlet-name> PassengerReg</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerRegServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerReg</servlet-name> 
+          <url-pattern>/PassengerRegServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name> PassengerPassword</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerPassServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerPassword</servlet-name> 
+          <url-pattern>/PassengerPassServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name> PassengerProfile</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerProfileServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerProfile</servlet-name> 
+          <url-pattern>/PassengerProfileServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name> PassengerLogin</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerLoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerLogin</servlet-name> 
+          <url-pattern>/PassengerLoginServlet</url-pattern>
+         </servlet-mapping>
+        
+         
+         <servlet>
+          <servlet-name> PassengerUpdate</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerUpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerUpdate</servlet-name> 
+          <url-pattern>/PassengerUpdateServlet</url-pattern>
+         </servlet-mapping>
+         
+        <servlet>
+          <servlet-name> PassengerDelete</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerDeleteServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerDelete</servlet-name> 
+          <url-pattern>/PassengerDeleteServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name> PassengerUpdateJsp</servlet-name>
+          <servlet-class>CarRentalSystem.PassengerUpdateJSPServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>PassengerUpdateJsp</servlet-name> 
+          <url-pattern>/PassengerUpdateJSPServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name> AdminLogin</servlet-name>
+          <servlet-class>CarRentalSystem.Admin_LoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>AdminLogin</servlet-name> 
+          <url-pattern>/Admin_LoginServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>ContactUs</servlet-name>
+          <servlet-class>CarRentalSystem.ContactUsServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>ContactUs</servlet-name> 
+          <url-pattern>/ContactUsServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>DisplayVehicle</servlet-name>
+          <servlet-class>CarRentalSystem.DisplayVehicleServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>DisplayVehicle</servlet-name> 
+          <url-pattern>/DisplayVehicleServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>DriverDelete</servlet-name>
+          <servlet-class>CarRentalSystem.DriverDeleteServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>DriverDelete</servlet-name> 
+          <url-pattern>/DriverDeleteServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>DriverLogin</servlet-name>
+          <servlet-class>CarRentalSystem.DriverLoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>DriverLogin</servlet-name> 
+          <url-pattern>/DriverLoginServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>DriverRegistration</servlet-name>
+          <servlet-class>CarRentalSystem.DriverRegistration</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>DriverRegistration</servlet-name> 
+          <url-pattern>/DriverRegistration</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>DriverUpdateServlet</servlet-name>
+          <servlet-class>CarRentalSystem.DriverUpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>DriverUpdateServlet</servlet-name> 
+          <url-pattern>/DriverUpdateServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>LogOutServlet</servlet-name>
+          <servlet-class>CarRentalSystem.LogOutServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>LogOutServlet</servlet-name> 
+          <url-pattern>/LogOutServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>RatingServlet</servlet-name>
+          <servlet-class>CarRentalSystem.RatingServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>RatingServlet</servlet-name> 
+          <url-pattern>/RatingServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>UserProfileServlet</servlet-name>
+          <servlet-class>CarRentalSystem.UserProfileServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>UserProfileServlet</servlet-name> 
+          <url-pattern>/UserProfileServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>VehicleAddServlet</servlet-name>
+          <servlet-class>CarRentalSystem.VehicleAddServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>VehicleAddServlet</servlet-name> 
+          <url-pattern>/VehicleAddServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>VehicleDisplayHome</servlet-name>
+          <servlet-class>CarRentalSystem.VehicleDisplayHomeServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>VehicleDisplayHome</servlet-name> 
+          <url-pattern>/VehicleDisplayHomeServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>VehicleGoProfile</servlet-name>
+          <servlet-class>CarRentalSystem.VehicleGoProfileServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>VehicleGoProfile</servlet-name> 
+          <url-pattern>/VehicleGoProfileServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>VehicleDelete</servlet-name>
+          <servlet-class>CarRentalSystem.VehicleProfileDeleteServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>VehicleDelete</servlet-name> 
+          <url-pattern>/VehicleProfileDeleteServlet</url-pattern>
+         </servlet-mapping>
+
+ 		<servlet>
+          <servlet-name>VehicleUpdate</servlet-name>
+          <servlet-class>CarRentalSystem.VehicleUpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>VehicleUpdate</servlet-name> 
+          <url-pattern>/VehicleUpdateServlet</url-pattern>
+         </servlet-mapping>			
+         
+  </web-app>
+</element>
+
+
+
+
+
+
+
+
+
+
+
+

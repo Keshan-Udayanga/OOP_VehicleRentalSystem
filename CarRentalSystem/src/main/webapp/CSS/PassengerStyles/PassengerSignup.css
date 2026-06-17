@@ -1,0 +1,159 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+	height: 100vh;
+	background-image: linear-gradient(rgba(116, 237, 181, 0.5), rgba(172, 182, 229, 0.5)), url('../../images/PassengerImages/signup.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	 overflow-x: hidden;
+    overflow-y: auto;
+	margin: 0;
+	
+}
+.PupdateForm{
+	
+	flex-direction:column;
+	justify-content:center;
+	border-radius:18px;
+	background:#ffffff;
+	width:400px;
+	padding:20px ;
+	margin:20px;
+    
+	overflow-y:auto; 
+      
+}
+
+.formWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0; 
+	margin-top: 20px;
+	min-height: calc(100vh - 120px); 
+	box-sizing: border-box;
+	
+}
+
+.formMain{
+	display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;  /* important to clip content */
+    min-height: 80vh;
+    width: 80vw;
+    max-width: 1000px;
+    flex-wrap: nowrap;
+  
+
+}
+
+
+.PsignForm, .Pdescription {
+	flex: 1 1 50%;
+	min-width: 0; 
+	
+}
+
+.PsignForm {
+	background: #ffffff;
+	padding: 2rem 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius:12px;
+}
+
+.Pdescription {
+	background: linear-gradient(135deg, #6c63ff, #8e7fff);
+      color: white;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.5;
+	  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.Pdescription h2{
+	font-size:2rem;
+	
+}
+
+
+.Pdescription p{
+	font-size:1rem;
+	font-weight:bold;
+	text-align:center;
+}
+
+@media (max-width: 768px) {
+    .formMain {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Pdescription, .PsignForm {
+        width: 100%;
+    }
+}
+
+
+.ph2{
+	text-align: center;
+      margin-bottom: 1.5rem;
+      color: #333;
+	  font-size:2rem;
+}
+
+.textfields{
+	width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      transition: border-color 0.3s ease;
+}
+
+.inputradio{
+	margin-left:1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+}
+
+.PsignForm input:focus{
+		border-color: #6c63ff;
+      outline: none;
+}
+
+.formWrapper input[type="submit"]{
+	width: 100%;
+	
+      padding: 0.75rem;
+      background-color: #6c63ff;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+	  font-size:1rem;
+}
+
+.formWrapper input[type="submit"]:hover{
+	background-color:#574fd6;
+}
+
+
